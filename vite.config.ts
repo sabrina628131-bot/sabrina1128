@@ -1,5 +1,6 @@
 import { defineConfig } from "vitest/config";
 export default defineConfig({
+  base: "/sabrina1128/",
   server: {
     proxy: { "/api/npc": "http://127.0.0.1:5175" },
     host: "127.0.0.1",
